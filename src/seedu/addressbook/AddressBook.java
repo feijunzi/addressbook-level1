@@ -5,6 +5,7 @@ package seedu.addressbook;
  * This class is written in a procedural fashion (i.e. not Object-Oriented)
  * Yes, it is possible to write non-OO code using an OO language.
  * ====================================================================
+ * This comment is aimed to change the code
  */
 
 import java.io.File;
@@ -128,6 +129,10 @@ public class AddressBook {
     private static final String COMMAND_HELP_WORD = "help";
     private static final String COMMAND_HELP_DESC = "Shows program usage instructions.";
     private static final String COMMAND_HELP_EXAMPLE = COMMAND_HELP_WORD;
+    
+    private static final String COMMAND_CHANGE_WORD = "change";
+    private static final String COMMAND_CHANGE_DESC = "Show changes";
+    private static final String COMMAND_CHANGE_EXAMPLE = COMMAND_CHANGE_WORD;
 
     private static final String COMMAND_EXIT_WORD = "exit";
     private static final String COMMAND_EXIT_DESC = "Exits the program.";
